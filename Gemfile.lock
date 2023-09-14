@@ -91,6 +91,9 @@ GEM
     ffi (1.15.5)
     globalid (1.1.0)
       activesupport (>= 5.0)
+    hpricot (0.8.6)
+    html2slim (0.2.0)
+      hpricot
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     image_processing (1.12.2)
@@ -274,6 +277,7 @@ DEPENDENCIES
   byebug
   capybara (>= 3.26)
   devise
+  html2slim
   image_processing (~> 1.2)
   jbuilder (~> 2.7)
   jquery-rails
